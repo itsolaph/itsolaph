@@ -1,3 +1,5 @@
+<img src="status.svg" alt="olaph status window" width="100%">
+
 ### hi, olaph here
 
 I build small tools that keep running after I close the laptop: dashboards that refresh every half hour, bots that watch markets, an Android app or two because the one I wanted didn't exist.
