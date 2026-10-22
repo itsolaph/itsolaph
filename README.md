@@ -6,10 +6,19 @@ I build small tools that keep running after I close the laptop: dashboards that 
 
 Most of it sits in private repos. The public bits:
 
+**Running**
 - [Frontier Pulse](https://itsolaph.github.io/frontier-pulse/) reads Entropy's 24/7 pre-IPO perps and turns them into what the market thinks Anthropic and OpenAI are worth. Unofficial, updates on its own.
+- [XDM](https://github.com/itsolaph/xdm) is a download manager for Android, in the spirit of 1DM and IDM+. Kotlin and Compose.
+
+**On the bench** (hackathon builds, still moving)
+- [Shadowright](https://github.com/itsolaph/shadowright) gives a wallet agent a learner's permit on Sui. It earns autonomy one category at a time instead of getting the keys on day one.
+- [Keepalive](https://github.com/itsolaph/keepalive) does USDC subscriptions on Arc that refund every epoch the service was down.
+- [Ferry](https://github.com/itsolaph/ferry) gets you gas on Portaldot: open an order on Base, land with tPOT.
+
+**Done**
 - [Close Call leaderboard](https://closecall.lol) was a live board for FLOP Labs' NVDA contest on technocore.chat. Every row is checked against the referee's signature in your browser, so you don't have to trust me.
 
-Stack changes with the project. Lately it's TypeScript, Python, Kotlin, and a lot of cron.
+Stack changes with the project. Lately it's TypeScript, Python, Kotlin, some Solidity, and a lot of cron.
 
 Off the keyboard: an anime backlog I will never finish and whatever game is eating my weekend.
 
