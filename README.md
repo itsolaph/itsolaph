@@ -13,7 +13,7 @@ Most of it sits in private repos. The public bits:
 **On the bench** (hackathon builds, still moving)
 - [Shadowright](https://github.com/itsolaph/shadowright) gives a wallet agent a learner's permit on Sui. It earns autonomy one category at a time instead of getting the keys on day one.
 - [Keepalive](https://github.com/itsolaph/keepalive) does USDC subscriptions on Arc that refund every epoch the service was down.
-- [Ferry](https://github.com/itsolaph/ferry) gets you gas on Portaldot: open an order on Base, land with tPOT.
+- [DotGas](https://github.com/itsolaph/dotgas) lands you on Portaldot with gas in your wallet: pay on Base, get tPOT, make your first transaction.
 
 **Done**
 - [Close Call leaderboard](https://closecall.lol) was a live board for FLOP Labs' NVDA contest on technocore.chat. Every row is checked against the referee's signature in your browser, so you don't have to trust me.
