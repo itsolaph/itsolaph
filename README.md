@@ -9,7 +9,7 @@ Most of it sits in private repos. The public bits:
 **Running**
 - [Frontier Pulse](https://itsolaph.github.io/frontier-pulse/) reads Entropy's 24/7 pre-IPO perps and turns them into what the market thinks Anthropic and OpenAI are worth. Unofficial, updates on its own.
 - [XDM](https://github.com/itsolaph/xdm) is a download manager for Android, in the spirit of 1DM and IDM+. Kotlin and Compose.
-- [x429: Skip the Line](https://x.com/olaph_lol/status/2115066777822745084) is a PayBox plugin for busy APIs. When one answers 429, your agent can pay a cent or two in USDC on Base to jump the queue, and every agent it passes gets paid for its spot. The link is the demo video; the code is private for now.
+- [x429: Skip the Line](https://github.com/itsolaph/x429-checkout) is a PayBox plugin for busy APIs. When one answers 429, your agent can pay a cent or two in USDC on Base to jump the queue, and every agent it passes gets paid for its spot. One of the 13 PayBox Hackathon finalists; [demo video](https://x.com/olaph_lol/status/2115066777822745084).
 
 **On the bench** (hackathon builds, still moving)
 - [Shadowright](https://github.com/itsolaph/shadowright) gives a wallet agent a learner's permit on Sui. It earns autonomy one category at a time instead of getting the keys on day one.
