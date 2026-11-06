@@ -15,7 +15,7 @@ Most of it sits in private repos. The public bits:
 **Building**
 - [Outlive](https://github.com/itsolaph/outlive) sells a running service instead of its code: an NFT on NEAR that holds an API's treasury, price list and customers, so selling the token hands over the business while callers keep calling.
 - [Shadowright](https://github.com/itsolaph/shadowright) gives a wallet agent a learner's permit on Sui. It earns autonomy one category at a time instead of getting the keys on day one.
-- [Nightshift](https://github.com/itsolaph/nightshift) is a payments operator for small PayPal merchants: it catches the lapsed authorizations, failed captures and double refunds that quietly lose money, and fixes the safe ones itself.
+- [Nightshift](https://github.com/itsolaph/nightshift) is a payments operator for small PayPal merchants: it catches the lapsed authorizations, failed captures and double refunds that quietly lose money, and fixes the safe ones itself. Running on a [sandbox account](https://nightshift-usur.onrender.com).
 
 **Past builds**
 - [Close Call leaderboard](https://closecall.lol) was a live board for FLOP Labs' NVDA contest on technocore.chat. Every row is checked against the referee's signature in your browser, so you don't have to trust me.
