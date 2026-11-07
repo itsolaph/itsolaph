@@ -7,7 +7,6 @@ I build small things that keep running after I close the laptop: dashboards that
 Most of it sits in private repos. The public bits:
 
 **Live**
-- [Frontier Pulse](https://itsolaph.github.io/frontier-pulse/) reads Entropy's 24/7 pre-IPO perps and turns them into what the market thinks Anthropic and OpenAI are worth. Unofficial, updates on its own.
 - [x429: Skip the Line](https://x429.lol) is a PayBox plugin for busy APIs. When one answers 429, your agent can pay a cent or two in USDC on Base to jump the queue, and every agent it passes gets paid for its spot. Took 1st place in the first PayBox Hackathon; [demo video](https://x.com/olaph_lol/status/2115066777822745084).
 - [Keepalive](https://itsolaph.github.io/keepalive/) sells USDC subscriptions by the epoch, and a missed heartbeat is the refund. On Arc mainnet, no support tickets involved.
 - [XDM](https://github.com/itsolaph/xdm) is a download manager for Android, in the spirit of 1DM and IDM+. Kotlin and Compose.
