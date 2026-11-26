@@ -6,6 +6,10 @@ I build small things that keep running after I close the laptop: dashboards that
 
 Most of it sits in private repos. The public bits:
 
+**ML & post-training**
+- [ShaderForge](https://github.com/itsolaph/shaderforge) trains a 1.5B code model (`Qwen2.5-Coder-1.5B-Instruct`, LoRA + TRL GRPO) to write GLSL fragment shaders from text descriptions, rewarded only on headless rendered pixel similarity behind a strict `glslangValidator` gate. Three runs on a rented RTX 3090 ($1.74 total) covering held-out shader families, a metaball reward hack, and a Mesa compiler-driver exploit that broke on strict GLSL; [live WebGL2 gallery](https://itsolaph.github.io/shaderforge/).
+- [ReflexGuard](https://github.com/itsolaph/reflexguard) trains a 6→8→1 MLP in NumPy on simulated AMM order flow (pump-and-dump, sandwich, slow drip), quantizes it to `int16`, and runs it bit-for-bit inside a Solidity contract verified with Foundry (0.9993 per-swap ROC AUC; 97.4% halt rate on a held-out attack family).
+
 **Live**
 - [x429: Skip the Line](https://x429.lol) is a PayBox plugin for busy APIs. When one answers 429, your agent can pay a cent or two in USDC on Base to jump the queue, and every agent it passes gets paid for its spot. Took 1st place in the first PayBox Hackathon; [demo video](https://x.com/olaph_lol/status/2115066777822745084).
 - [Keepalive](https://itsolaph.github.io/keepalive/) sells USDC subscriptions by the epoch, and a missed heartbeat is the refund. On Arc mainnet, no support tickets involved.
